@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`unplugin > basic.ts 1`] = `
+"// basic.js
+const x = true ? 1 : (function(e) {
+	throw e;
+})(1);
+
+export { x };
+"
+`;
