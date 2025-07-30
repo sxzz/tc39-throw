@@ -1,3 +1,4 @@
+import { babelParse, getLang } from 'ast-kit'
 // @ts-expect-error
 import { parsers as espree } from 'prettier/plugins/acorn.mjs'
 // @ts-expect-error
@@ -6,12 +7,11 @@ import { parsers as babel } from 'prettier/plugins/babel.mjs'
 import { printers } from 'prettier/plugins/estree.mjs'
 // @ts-expect-error
 import { parsers as typescript } from 'prettier/plugins/typescript.mjs'
-import { parse as eslintTsParse } from './eslint-typescript'
 import { parse as acornParse } from './acorn'
+import { parse as eslintTsParse } from './eslint-typescript'
 import type { ParserOptions } from '@babel/parser'
 import type { Comment } from 'acorn'
 import type { Parser, Plugin } from 'prettier'
-import { babelParse, getLang } from 'ast-kit'
 
 const acornParser: Parser = {
   ...espree.acorn,

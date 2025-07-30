@@ -13,7 +13,7 @@ export function parse(src: string, options: Options): Program {
     false,
     'babel',
     (src, isExpression) => {
-      let ast = isExpression
+      const ast = isExpression
         ? parseExpressionAt(src, 0, options)
         : acornParse(src, options)
 
