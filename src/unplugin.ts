@@ -13,8 +13,8 @@ export function transformThrowOperator(
   const ast = babelParse(code, getLang(id), {
     sourceType: 'module',
     plugins: ['throwExpressions'],
+    errorRecovery: true,
   })
-
   walk(ast as any, {
     enter(node: any) {
       if (node.type === 'UnaryExpression' && node.operator === 'throw') {
