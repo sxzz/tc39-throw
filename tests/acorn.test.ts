@@ -1,9 +1,11 @@
 import { expect, test } from 'vitest'
-import { parse } from '../src/acorn'
+import { untsx } from '../src'
+
+const { acorn } = untsx
 
 test('parse simple throw expression', () => {
   const code = 'const a = throw something()'
-  const ast = parse(code, { ecmaVersion: 'latest' })
+  const ast = acorn(code, { ecmaVersion: 'latest' })
 
   const declaration = (ast as any).body[0].declarations[0]
   expect(declaration.init.type).toBe('UnaryExpression')

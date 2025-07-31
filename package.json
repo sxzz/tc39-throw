@@ -22,12 +22,9 @@
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
-    "./acorn": "./dist/acorn.js",
-    "./eslint-typescript": "./dist/eslint-typescript.js",
-    "./eslint-typescript-parser": "./dist/eslint-typescript-parser.js",
-    "./espree": "./dist/espree.js",
+    ".": "./dist/index.js",
+    "./eslint": "./dist/eslint.js",
     "./prettier": "./dist/prettier.js",
-    "./replace": "./dist/replace.js",
     "./unplugin": "./dist/unplugin.js",
     "./volar": "./dist/volar.js",
     "./package.json": "./package.json"
@@ -52,18 +49,10 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "@babel/parser": "^7.28.0",
-    "@typescript-eslint/parser": "^8.38.0",
-    "@typescript-eslint/typescript-estree": "^8.38.0",
-    "acorn": "^8.15.0",
-    "acorn-jsx": "^5.3.2",
-    "acorn-typescript": "^1.4.13",
-    "ast-kit": "^2.1.1",
-    "espree": "^10.4.0",
-    "estree-walker": "^3.0.3",
     "magic-string-ast": "^1.0.0",
     "ts-macro": "^0.3.0",
-    "unplugin": "^2.3.5"
+    "unplugin": "^2.3.5",
+    "untsx": "^0.1.1"
   },
   "devDependencies": {
     "@babel/types": "^7.28.2",
