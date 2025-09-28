@@ -1,6 +1,8 @@
-# tc39-throw [![npm](https://img.shields.io/npm/v/tc39-throw.svg)](https://npmjs.com/package/tc39-throw)
+# tc39-throw
 
-[![Unit Test](https://github.com/sxzz/tc39-throw/actions/workflows/unit-test.yml/badge.svg)](https://github.com/sxzz/tc39-throw/actions/workflows/unit-test.yml)
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
+[![Unit Test][unit-test-src]][unit-test-href]
 
 An implementation of the [ECMAScript `throw` expressions](https://github.com/tc39/proposal-throw-expressions) proposal.
 
@@ -104,3 +106,10 @@ export default sxzz().append(
 ## License
 
 [MIT](./LICENSE) License © 2025 [Kevin Deng](https://github.com/sxzz)
+
+[npm-version-src]: https://img.shields.io/npm/v/tc39-throw.svg
+[npm-version-href]: https://npmjs.com/package/tc39-throw
+[npm-downloads-src]: https://img.shields.io/npm/dm/tc39-throw
+[npm-downloads-href]: https://www.npmcharts.com/compare/tc39-throw?interval=30
+[unit-test-src]: https://github.com/sxzz/tc39-throw/actions/workflows/unit-test.yml/badge.svg
+[unit-test-href]: https://github.com/sxzz/tc39-throw/actions/workflows/unit-test.yml
