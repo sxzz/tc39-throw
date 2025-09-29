@@ -56,7 +56,7 @@
   },
   "devDependencies": {
     "@babel/types": "^7.28.4",
-    "@sxzz/eslint-config": "^7.2.5",
+    "@sxzz/eslint-config": "^7.2.6",
     "@sxzz/prettier-config": "^2.2.4",
     "@sxzz/test-utils": "^0.5.11",
     "@ts-macro/language-plugin": "^0.3.6",
