@@ -1,7 +1,7 @@
 {
   "name": "tc39-throw",
   "version": "0.2.1",
-  "packageManager": "pnpm@10.18.1",
+  "packageManager": "pnpm@10.18.2",
   "description": "Enable support for throw expressions in JavaScript tools",
   "type": "module",
   "license": "MIT",
@@ -62,7 +62,7 @@
     "@ts-macro/language-plugin": "^0.3.6",
     "@ts-macro/tsc": "^0.3.6",
     "@types/espree": "^10.1.0",
-    "@types/node": "^24.7.0",
+    "@types/node": "^24.7.2",
     "@volar/typescript": "^2.4.23",
     "bumpp": "^10.3.1",
     "eslint": "^9.37.0",
