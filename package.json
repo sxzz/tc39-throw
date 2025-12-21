@@ -2,7 +2,7 @@
   "name": "tc39-throw",
   "type": "module",
   "version": "0.2.1",
-  "packageManager": "pnpm@10.25.0",
+  "packageManager": "pnpm@10.26.1",
   "description": "Enable support for throw expressions in JavaScript tools",
   "author": "Kevin Deng <sxzz@sxzz.moe>",
   "license": "MIT",
@@ -61,19 +61,19 @@
     "@babel/types": "^7.28.5",
     "@sxzz/eslint-config": "^7.4.3",
     "@sxzz/prettier-config": "^2.2.6",
-    "@sxzz/test-utils": "^0.5.14",
+    "@sxzz/test-utils": "^0.5.15",
     "@ts-macro/language-plugin": "^0.3.6",
     "@ts-macro/tsc": "^0.3.6",
     "@types/espree": "^10.1.0",
-    "@types/node": "^24.10.4",
+    "@types/node": "^25.0.3",
     "@volar/typescript": "^2.4.27",
     "bumpp": "^10.3.2",
     "eslint": "^9.39.2",
-    "tsdown": "^0.17.4",
+    "tsdown": "^0.18.2",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "unplugin-oxc": "^0.5.6",
-    "vite": "^7.2.7",
-    "vitest": "^4.0.15"
+    "vite": "^7.3.0",
+    "vitest": "^4.0.16"
   }
 }
