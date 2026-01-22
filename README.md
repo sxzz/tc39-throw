@@ -105,7 +105,7 @@ export default sxzz().append(
 
 ## License
 
-[MIT](./LICENSE) License © 2025 [Kevin Deng](https://github.com/sxzz)
+[MIT](./LICENSE) License © 2025-PRESENT [Kevin Deng](https://github.com/sxzz)
 
 [npm-version-src]: https://img.shields.io/npm/v/tc39-throw.svg
 [npm-version-href]: https://npmjs.com/package/tc39-throw
