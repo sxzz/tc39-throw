@@ -65,7 +65,7 @@
     "@types/espree": "^11.1.0",
     "@types/node": "^25.5.0",
     "@volar/typescript": "^2.4.28",
-    "bumpp": "^10.4.1",
+    "bumpp": "^11.0.1",
     "eslint": "^10.0.3",
     "tsdown": "^0.21.3",
     "tsdown-preset-sxzz": "^0.4.2",
