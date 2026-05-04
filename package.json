@@ -1,7 +1,7 @@
 {
   "name": "tc39-throw",
   "type": "module",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "packageManager": "pnpm@11.0.4",
   "description": "Enable support for throw expressions in JavaScript tools",
   "author": "Kevin Deng <sxzz@sxzz.moe>",
