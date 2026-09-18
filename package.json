@@ -15,6 +15,7 @@
   "bugs": {
     "url": "https://github.com/sxzz/tc39-throw/issues"
   },
+  "sideEffects": false,
   "exports": {
     ".": "./dist/index.js",
     "./eslint": "./dist/eslint.js",
